@@ -1,0 +1,10 @@
+url: jdbc:postgresql://localhost:5432/airport
+username: "user"
+password: "pass"
+
+runtime: java
+env: flex
+
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
